@@ -1,12 +1,12 @@
-# Template - a KTANEModKit module
+# Lights Out - a KTANEModKit module
 
-![Template Module](https://ashbash1987.github.io/template/Manual/img/Component.png "Template Module")
+![Lights Out](https://ashbash1987.github.io/ktanemod-lightsout/Manual/img/Component.png "Lights Out")
 
-Template is an experimental module leveraging the newly-exposed KTANEModKit for 'Keep Talking and Nobody Explodes'.
+Lights Out is an experimental module leveraging the newly-exposed KTANEModKit for 'Keep Talking and Nobody Explodes'. It features a representation of the classic 90's handheld game of the same name, in a needy module form-factor.
 
 ## The Manual
 
-Visit https://ashbash1987.github.io/template/Manual for a KTANE-like manual specifically for this module.
+Visit https://ashbash1987.github.io/ktanemod-lightsout/Manual for a KTANE-like manual specifically for this module.
 
 ## Steam Workshop Installation
 
@@ -16,12 +16,12 @@ Firstly, ensure that you are on the modpreview Beta of Keep Talking and Nobody E
 
 Next, join the KTANEMod Beta community group on Steam by going to http://steamcommunity.com/groups/ktanemodbeta
 
-Finally, goto http://steamcommunity.com/sharedfiles/filedetails/?id=xxxx to subscribe to the Template mod. This will download the module automatically for you, and will continue to download updates for the module when updates are released.
+Finally, goto http://steamcommunity.com/sharedfiles/filedetails/?id=729573295 to subscribe to the Lights Out mod. This will download the module automatically for you, and will continue to download updates for the module when updates are released.
 
 ## Non-Steam Installation
 
 If you didn't purchase 'Keep Talking and Nobody Explodes' through Steam, but you have a modpreview version to play on, then you can manually install the module instead of using the Steam Workshop.
 
-Goto https://github.com/ashbash1987/template/releases and download the latest release for the module.
+Goto https://github.com/ashbash1987/ktanemod-lightsout/releases and download the latest release for the module.
 
-Inside the *.zip file will be a folder called Template; drop that folder into the `<path>/<to>/Keep Talking and Nobody Explodes/mods` folder. (If the folder doesn't exist, create one for it).
+Inside the *.zip file will be a folder called LightsOut; drop that folder into the `<path>/<to>/Keep Talking and Nobody Explodes/mods` folder. (If the folder doesn't exist, create one for it).
