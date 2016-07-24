@@ -25,6 +25,7 @@ public class LightsOutModule : MonoBehaviour
     private void Start()
     {
         NeedyModule.OnNeedyActivation += OnActivate;
+        NeedyModule.OnNeedyDeactivation += OnDeactivate;
         NeedyModule.OnTimerExpired += OnTimerExpired;
 
         foreach (KMSelectable selectable in Selectable.Children)
@@ -36,6 +37,7 @@ public class LightsOutModule : MonoBehaviour
     private void OnDestroy()
     {
         NeedyModule.OnNeedyActivation -= OnActivate;
+        NeedyModule.OnNeedyDeactivation -= OnDeactivate;
         NeedyModule.OnTimerExpired -= OnTimerExpired;
 
         foreach (KMSelectable selectable in Selectable.Children)
@@ -52,6 +54,12 @@ public class LightsOutModule : MonoBehaviour
         }
 
         EnableLights(true);
+    }
+
+    private void OnDeactivate()
+    {
+        ResetLights();
+        EnableLights(false);
     }
 
     private void OnTimerExpired()
