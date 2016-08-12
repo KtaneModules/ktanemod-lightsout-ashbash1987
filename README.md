@@ -2,7 +2,7 @@
 
 ![Lights Out](https://ashbash1987.github.io/ktanemod-lightsout/Manual/img/Component.png "Lights Out")
 
-Lights Out is a module leveraging the newly-exposed KTANEModKit for 'Keep Talking and Nobody Explodes'. It features a representation of the classic 90's handheld game of the same name, in a needy module form-factor.
+Lights Out is a module leveraging the newly-exposed KTANEModKit for _Keep Talking and Nobody Explodes_. It features a representation of the classic 90's handheld game of the same name, in a needy module form-factor.
 
 ## The Manual
 
