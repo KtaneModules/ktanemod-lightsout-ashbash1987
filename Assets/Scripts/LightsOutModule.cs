@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Linq;
+using System.Collections.Generic;
+using System;
 
 public class LightsOutModule : MonoBehaviour
 {
@@ -96,7 +98,7 @@ public class LightsOutModule : MonoBehaviour
     {
         foreach (LightsOutButton button in ChildButtons)
         {
-            button.SetState(Random.Range(0, 2) == 1);
+            button.SetState(UnityEngine.Random.Range(0, 2) == 1);
         }
     }
 
@@ -106,5 +108,29 @@ public class LightsOutModule : MonoBehaviour
         {
             button.CanInteract = enable;
         }
+    }
+
+    private KMSelectable[] ProcessTwitchCommand(string command)
+    {
+        if (!command.StartsWith("press ", StringComparison.InvariantCultureIgnoreCase))
+        {
+            return null;
+        }
+
+        command = command.Substring(5);
+
+        string[] sequence = command.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+        List<KMSelectable> selectables = new List<KMSelectable>();
+        foreach(string buttonString in sequence)
+        {
+            int buttonIndex = -1;
+            if (int.TryParse(buttonString, out buttonIndex) && buttonIndex >= 1 && buttonIndex <= 9)
+            {
+                selectables.Add(Selectable.Children[buttonIndex - 1]);
+            }
+        }
+
+        return selectables.ToArray();
     }
 }

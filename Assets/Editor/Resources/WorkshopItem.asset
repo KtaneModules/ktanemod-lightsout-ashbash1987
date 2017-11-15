@@ -13,12 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WorkshopPublishedFileID: 729573295
   Title: Lights Out Needy Module
-  Description: "[b][i]Who knew turning out all the lights was a hard task?[/i][/b]\n\n[h1]About[/h1]\r\nIt's
+  Description: "[b][i]Who knew turning out all the lights was a hard task?[/i][/b]\r\n\r\n[h1]About[/h1]\r\nIt's
     the classic handheld puzzle from the 90s, but in needy module form! Switch off
     all of the lights to deactivate the module! It's as simple as that!\r\n\r\n[h1]Manual
     Page[/h1]\r\nThe manual PDF is included in the download. However, you can also
     [url=https://ashbash1987.github.io/ktanemod-lightsout/Manual/]click here[/url]
-    to view it online.\n\r\n[h1]Mission Makers[/h1]\r\nFor those making custom missions
+    to view it online.\r\n\r\n[h1]Mission Makers[/h1]\r\nFor those making custom missions
     and wanting to reference this module, the type name is [i][b]LightsOut[/b][/i]."
   PreviewImage: {fileID: 2800000, guid: fc38eff07fb2f51469ac309cca164e26, type: 3}
   Tags:
